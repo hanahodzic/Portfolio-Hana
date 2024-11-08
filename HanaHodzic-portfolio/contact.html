@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kontakt</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="header">
+        <div class="header-content">
+            <div class="logo">
+                <a href="index.html"><img src="logo.png" alt="Logo"></a>
+            </div>
+            <div class="header-text">
+            <h1>Kontaktirajte me</h1>
+            </div>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Početna</a></li>
+                <li><a href="biografija.html">Biografija</a></li>
+                <li><a href="projekti.html">Projekti</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="contact-form">
+            <h2>Kontaktirajte me</h2>
+            <form>
+                <label for="name">Vaše ime:</label>
+                <input type="text" id="name" name="name" placeholder="Unesite ime..." required>
+        
+                <label for="email">Vaš email:</label>
+                <input type="email" id="email" name="email" placeholder="Unesite email..." required>
+        
+                <label for="subject">Naslov poruke:</label>
+                <input type="text" id="subject" name="subject" placeholder="Naslov..." required>
+        
+                <label for="query-type">Vrsta upita:</label>
+                <select id="query-type" name="query-type">
+                    <option value="general">Opšti upit</option>
+                    <option value="support">Podrška</option>
+                    <option value="feedback">Povratne informacije</option>
+                </select><br>
+        
+                <label for="message">Vaša poruka:</label>
+                <textarea id="message" name="message" placeholder="Unesite poruku..." rows="4" required></textarea>
+        
+                <button type="submit">Pošalji poruku</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Hana Kontakt</p>
+    </footer>
+</body>
+</html>
